@@ -3,6 +3,8 @@
 Configuration with RHS vehicles and infantry for Warlords Arma 3 modes
 Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3451728962
 
+![Frame 2](https://github.com/user-attachments/assets/3d422659-2cfa-44d3-9f97-2557cf86aaeb)
+
 Config in Description.ext:
 
 ```
