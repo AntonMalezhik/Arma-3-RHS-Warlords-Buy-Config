@@ -12,6 +12,8 @@
 // requirements[]={"W"} = гавань
 
 // -----------------------
+// Количество КО/сек на точку: 10 это важно!
+// -----------------------
 
 respawn = 3;
 respawnTemplates[] = {"Base", "Counter"};
@@ -30,17 +32,17 @@ class CfgWLRequisitionPresets
             // Пехота
             class Infantry
             {   
-                class rhsusf_usmc_marpat_wd_gunner { cost = 50; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_driver { cost = 50; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_crewman { cost = 50; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_grenadier { cost = 100; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_machinegunner { cost = 100; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_explosives { cost = 100; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_officer { cost = 125; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_marksman { cost = 150; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_stinger { cost = 150; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_smaw { cost = 150; requirements[]={}; };
-                class rhsusf_usmc_marpat_wd_riflemanat { cost = 150; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_gunner { cost = 10; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_driver { cost = 10; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_crewman { cost = 10; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_grenadier { cost = 25; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_machinegunner { cost = 25; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_explosives { cost = 25; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_officer { cost = 50; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_marksman { cost = 75; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_stinger { cost = 75; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_smaw { cost = 75; requirements[]={}; };
+                class rhsusf_usmc_marpat_wd_riflemanat { cost = 75; requirements[]={}; };
             };
 
             // Снаряжение (Ящики)
@@ -65,12 +67,12 @@ class CfgWLRequisitionPresets
                 class RHS_M2StaticMG_MiniTripod_USMC_WD { cost = 300; requirements[]={}; };
                 class RHS_M2StaticMG_USMC_WD { cost = 350; requirements[]={}; };
                 class B_G_HMG_02_high_F { cost = 400; requirements[]={}; };
-                class RHS_MK19_TriPod_USMC_WD { cost = 1000; requirements[]={}; };
-                class B_static_AT_F { cost = 1400; requirements[]={}; };
+                class RHS_MK19_TriPod_USMC_WD { cost = 600; requirements[]={}; };
+                class B_static_AT_F { cost = 900; requirements[]={}; };
                 class RHS_TOW_TriPod_USMC_WD { cost = 1700; requirements[]={}; };
                 class ace_dragon_staticAssembled { cost = 2000; requirements[]={}; };
-                class RHS_M252_WD { cost = 2500; requirements[]={}; };
-                class RHS_Stinger_AA_pod_USMC_WD { cost = 2700; requirements[]={}; };
+                class RHS_M252_WD { cost = 3000; requirements[]={}; };
+                class RHS_Stinger_AA_pod_USMC_WD { cost = 3500; requirements[]={}; };
                 class RHS_M119_WD { cost = 4000; requirements[]={}; };
                 
             };
@@ -143,38 +145,38 @@ class CfgWLRequisitionPresets
                 class rhsusf_M978A4_usarmy_wd { cost = 440; requirements[]={}; };
 
                 // БТР
-                class rhsusf_m113_usarmy_unarmed { cost = 425; requirements[]={}; };
-                class rhsusf_m113_usarmy_medical { cost = 430; requirements[]={}; };
-                class rhsusf_m113_usarmy_M240 { cost = 440; requirements[]={}; };
-                class rhsusf_m113_usarmy_supply { cost = 455; requirements[]={}; };
-                class rhsusf_m113_usarmy { cost = 475; requirements[]={}; };
-                class rhsusf_m113_usarmy_MK19 { cost = 500; requirements[]={}; };
+                class rhsusf_m113_usarmy_unarmed { cost = 600; requirements[]={}; };
+                class rhsusf_m113_usarmy_medical { cost = 650; requirements[]={}; };
+                class rhsusf_m113_usarmy_supply { cost = 700; requirements[]={}; };
+                class rhsusf_m113_usarmy_M240 { cost = 750; requirements[]={}; };
+                class rhsusf_m113_usarmy { cost = 850; requirements[]={}; };
+                class rhsusf_m113_usarmy_MK19 { cost = 920; requirements[]={}; };
 
-                class rhsusf_M1117_W { cost = 550; requirements[]={}; };
+                class rhsusf_M1117_W { cost = 1000; requirements[]={}; };
 
-                class rhsusf_stryker_m1126_m2_wd { cost = 600; requirements[]={}; };
-                class rhsusf_stryker_m1126_mk19_wd { cost = 625; requirements[]={}; };
-                class rhsusf_stryker_m1132_m2_np_wd { cost = 640; requirements[]={}; };
-                class rhsusf_stryker_m1127_m2_wd { cost = 650; requirements[]={}; };
-                class rhsusf_stryker_m1132_m2_wd { cost = 670; requirements[]={}; };
-                class rhsusf_stryker_m1134_wd { cost = 700; requirements[]={}; };
+                class rhsusf_stryker_m1126_m2_wd { cost = 1100; requirements[]={}; };
+                class rhsusf_stryker_m1126_mk19_wd { cost = 1200; requirements[]={}; };
+                class rhsusf_stryker_m1132_m2_np_wd { cost = 1300; requirements[]={}; };
+                class rhsusf_stryker_m1127_m2_wd { cost = 1400; requirements[]={}; };
+                class rhsusf_stryker_m1132_m2_wd { cost = 1500; requirements[]={}; };
+                class rhsusf_stryker_m1134_wd { cost = 1600; requirements[]={}; };
 
                 // БМП
-                class RHS_M2A2_wd { cost = 700; requirements[]={}; };
-                class RHS_M2A3_wd { cost = 725; requirements[]={}; };
-                class RHS_M6_wd { cost = 750; requirements[]={}; };
-                class RHS_M2A3_BUSKI_wd { cost = 775; requirements[]={}; };
-                class RHS_M2A3_BUSKIII_wd { cost = 800; requirements[]={}; };
+                class RHS_M2A2_wd { cost = 2000; requirements[]={}; };
+                class RHS_M2A3_wd { cost = 2150; requirements[]={}; };
+                class RHS_M6_wd { cost = 2300; requirements[]={}; };
+                class RHS_M2A3_BUSKI_wd { cost = 2450; requirements[]={}; };
+                class RHS_M2A3_BUSKIII_wd { cost = 2700; requirements[]={}; };
                 
                 // ТАНКИ
-                class rhsusf_m1a1aimwd_usarmy { cost = 1200; requirements[]={}; };
-                class rhsusf_m1a1aim_tuski_wd { cost = 1400; requirements[]={}; };
+                class rhsusf_m1a1aimwd_usarmy { cost = 3000; requirements[]={}; };
+                class rhsusf_m1a1aim_tuski_wd { cost = 3700; requirements[]={}; };
 
                 // ПВО
-                class B_APC_Tracked_01_AA_F { cost = 800; requirements[]={}; };
+                class B_APC_Tracked_01_AA_F { cost = 2500; requirements[]={}; };
 
                 // Самоходная Артилерия
-                class rhsusf_m109_usarmy { cost = 1200; requirements[]={}; };
+                class rhsusf_m109_usarmy { cost = 3000; requirements[]={}; };
 
             };
 
@@ -186,18 +188,18 @@ class CfgWLRequisitionPresets
             // Пехота
             class Infantry
             {   
-                class rhs_msv_emr_rifleman { cost = 50; requirements[]={}; };
-                class rhs_msv_emr_driver { cost = 50; requirements[]={}; };
-                class rhs_msv_emr_crew { cost = 50; requirements[]={}; };
-                class rhs_msv_emr_grenadier { cost = 100; requirements[]={}; };
-                class rhs_msv_emr_machinegunner { cost = 100; requirements[]={}; };
-                class rhs_msv_emr_engineer { cost = 100; requirements[]={}; };
-                class rhs_msv_emr_efreitor { cost = 125; requirements[]={}; };
-                class rhs_msv_emr_marksman { cost = 150; requirements[]={}; };
-                class rhs_msv_emr_aa { cost = 150; requirements[]={}; };
-                class rhs_msv_emr_at { cost = 150; requirements[]={}; };
-                class rhs_msv_emr_LAT { cost = 150; requirements[]={}; };
-                class rhs_vmf_emr_grenadier_rpg { cost = 150; requirements[]={}; };
+                class rhs_msv_emr_rifleman { cost = 10; requirements[]={}; };
+                class rhs_msv_emr_driver { cost = 10; requirements[]={}; };
+                class rhs_msv_emr_crew { cost = 10; requirements[]={}; };
+                class rhs_msv_emr_grenadier { cost = 25; requirements[]={}; };
+                class rhs_msv_emr_machinegunner { cost = 25; requirements[]={}; };
+                class rhs_msv_emr_engineer { cost = 25; requirements[]={}; };
+                class rhs_msv_emr_efreitor { cost = 50; requirements[]={}; };
+                class rhs_msv_emr_marksman { cost = 75; requirements[]={}; };
+                class rhs_msv_emr_aa { cost = 75; requirements[]={}; };
+                class rhs_msv_emr_at { cost = 75; requirements[]={}; };
+                class rhs_msv_emr_LAT { cost = 75; requirements[]={}; };
+                class rhs_vmf_emr_grenadier_rpg { cost = 75; requirements[]={}; };
             };
 
             // Снаряжение (Ящики)
@@ -222,13 +224,13 @@ class CfgWLRequisitionPresets
                 class RHS_NSV_TriPod_MSV { cost = 250; requirements[]={}; };
                 class rhs_KORD_MSV { cost = 300; requirements[]={}; };
                 class rhs_KORD_high_MSV { cost = 350; requirements[]={}; };
-                class RHS_AGS30_TriPod_MSV { cost = 600; requirements[]={}; };
+                class RHS_ZU23_MSV { cost = 400; requirements[]={}; };
+                class RHS_AGS30_TriPod_MSV { cost = 500; requirements[]={}; };
                 class rhs_Metis_9k115_2_msv { cost = 600; requirements[]={}; };
-                class rhs_Kornet_9M133_2_msv { cost = 1200; requirements[]={}; };
-                class rhs_SPG9M_MSV { cost = 1500; requirements[]={}; };
-                class rhs_Igla_AA_pod_msv { cost = 1500; requirements[]={}; };
-                class rhs_2b14_82mm_msv { cost = 2500; requirements[]={}; };
-                class RHS_ZU23_MSV { cost = 2500; requirements[]={}; };
+                class rhs_Kornet_9M133_2_msv { cost = 700; requirements[]={}; };
+                class rhs_SPG9M_MSV { cost = 750; requirements[]={}; };
+                class rhs_Igla_AA_pod_msv { cost = 800; requirements[]={}; };
+                class rhs_2b14_82mm_msv { cost = 2200; requirements[]={}; };
                 class rhs_D30_msv { cost = 4000; requirements[]={}; };
             };
 
@@ -295,31 +297,31 @@ class CfgWLRequisitionPresets
                 class rhs_kamaz5350_ammo_vv { cost = 300; requirements[]={}; };
 
                 // БТР
-                class rhs_btr60_msv { cost = 500; requirements[]={}; };
-                class rhs_btr70_msv { cost = 600; requirements[]={}; };
-                class rhs_btr80_msv { cost = 700; requirements[]={}; };
-                class rhs_btr80a_msv { cost = 760; requirements[]={}; };
+                class rhs_btr60_msv { cost = 1000; requirements[]={}; };
+                class rhs_btr70_msv { cost = 1400; requirements[]={}; };
+                class rhs_btr80_msv { cost = 1900; requirements[]={}; };
+                class rhs_btr80a_msv { cost = 2400; requirements[]={}; };
 
                 // БМП
-                class rhs_bmp1_msv { cost = 600; requirements[]={}; };
-                class rhs_bmp2d_msv { cost = 700; requirements[]={}; };
-                class rhs_bmp2k_msv { cost = 700; requirements[]={}; };
-                class rhs_bmp3_msv { cost = 780; requirements[]={}; };
+                class rhs_bmp1_msv { cost = 1400; requirements[]={}; };
+                class rhs_bmp2d_msv { cost = 1700; requirements[]={}; };
+                class rhs_bmp2k_msv { cost = 1800; requirements[]={}; };
+                class rhs_bmp3_msv { cost = 2400; requirements[]={}; };
 
                 // ТАНКИ
-                class rhs_t72ba_tv { cost = 800; requirements[]={}; };
-                class rhs_sprut_vdv { cost = 840; requirements[]={}; };
-                class rhs_t80b { cost = 880; requirements[]={}; };
-                class rhs_t80a { cost = 920; requirements[]={}; };
-                class rhs_t80uk { cost = 940; requirements[]={}; };
-                class rhs_t90_tv { cost = 1100; requirements[]={}; };
-                class rhs_t14_tv { cost = 1250; requirements[]={}; };
+                class rhs_t72ba_tv { cost = 2200; requirements[]={}; };
+                class rhs_sprut_vdv { cost = 2500; requirements[]={}; };
+                class rhs_t80b { cost = 3000; requirements[]={}; };
+                class rhs_t80a { cost = 3100; requirements[]={}; };
+                class rhs_t80uk { cost = 3200; requirements[]={}; };
+                class rhs_t90_tv { cost = 4000; requirements[]={}; };
+                class rhs_t14_tv { cost = 5000; requirements[]={}; };
 
                 // ПВО
-                class rhs_zsu234_aa { cost = 700; requirements[]={}; };
+                class rhs_zsu234_aa { cost = 2500; requirements[]={}; };
 
                 // Самоходная Артилерия
-                class rhs_2s1_vmf { cost = 1100; requirements[]={}; };
+                class rhs_2s1_vmf { cost = 3000; requirements[]={}; };
                 class rhs_9k79_B { cost = 25000; requirements[]={}; };
 
             };
@@ -330,11 +332,11 @@ class CfgWLRequisitionPresets
 // Перезапись цен
 class CfgWLAssetCostOverride
 {
-	Scan = 300;				// Сканирование
-	Airdrop = 200;			// Припасы с неба
-	FastTravel = 150;		// Быстрое перемещение
+	Scan = 250;				// Сканирование
+	Airdrop = 1;			// Цена вызова техники с неба
+	FastTravel = 75;		// Быстрое перемещение
 	LastLoadout = 200;		// Последняя экипировка
-	Arsenal = 400;			// Вызов Арсенала
+	Arsenal = 200;			// Вызов Арсенала
 	FundsTransfer = 0;	    // Перевод средств
 	ResetVoting = 0;		// Сброс голосования
 };
