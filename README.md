@@ -320,7 +320,7 @@ class CfgWLRequisitionPresets
 class CfgWLAssetCostOverride
 {
 	Scan = 300;				// Сканирование
-	Airdrop = 200;			// Припасы с неба
+	Airdrop = 1;			// Припасы с неба
 	FastTravel = 150;		// Быстрое перемещение
 	LastLoadout = 200;		// Последняя экипировка
 	Arsenal = 400;			// Вызов Арсенала
